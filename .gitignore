@@ -1,0 +1,37 @@
+# Build and test output
+**/[Bb]in/
+**/[Oo]bj/
+[Aa]rtifacts/
+[Tt]est[Rr]esults/
+coverage/
+*.coverage
+*.coveragexml
+
+# IDE and user settings
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+**/secrets.json
+**/Properties/PublishProfiles/*.pubxml
+**/Properties/PublishProfiles/*.pubxml.user
+*.pfx
+*.p12
+
+# Logs and OS files
+*.log
+[Ll]ogs/
+.DS_Store
+Thumbs.db
+Desktop.ini
